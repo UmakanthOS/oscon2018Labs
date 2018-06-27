@@ -42,12 +42,9 @@ This hands-on lab includes the following exercises:
 
 - [Exercise 1: Create a Blockchain on Azure](#Exercise1)
 - [Exercise 2: Create a wallet](#Exercise2)
-- [Exercise 3: Unlock the coinbase account](#Exercise3)
-- [Exercise 4: Deploy a smart contract](#Exercise4)
-- [Exercise 5: Invoke the contract from an app](#Exercise5)
-- [Exercise 6: Delete the Ethereum network](#Exercise6)
+- [Exercise 3: Delete the Ethereum network](#Exercise3)
 
-Estimated time to complete this lab: **60** minutes.
+Estimated time to complete this lab: **20** minutes.
 
 <a name="Exercise1"></a>
 ## Exercise 1: Create a blockchain on Azure ##
@@ -201,7 +198,7 @@ The next task is to set up a wallet and connect it to the Ethereum network deplo
 
 Seeding your wallet with Ether isn't strictly necessary because you won't be using the Ether in it in this lab; you will use your own cryptocurrency instead. But if you *were* deploying an Ethereum network for the purpose of transferring Ether between accounts, you now know how to get some Ether into your account for testing purposes. 
 
-Where did the 1,000 Ether come from? They came from the *coinbase* account that was created when the network was created. The coinbase account holds all the Ether that haven't been transferred to individual accounts. Later, you will use Ether in this account to *fuel* the transactions that you perform via the contracts that you deploy. Before you can do that, you must unlock the account.
+Where did the 1,000 Ether come from? They came from the *coinbase* account that was created when the network was created. The coinbase account holds all the Ether that haven't been transferred to individual accounts. 
 
 <a name="Exercise3"></a>
 ## Exercise 3: Unlock the coinbase account ##
@@ -459,38 +456,8 @@ Smart contracts are designed to be used by applications that use the blockchain 
  
 1. Return to the MetaMask window in Chrome and copy the address for **Account 1** to the clipboard as you did in Exercise 2, Step 16. Then replace ACCOUNT1_ADDRESS on line 4 of **use-contract.js** with the address on the clipboard and save your changes to **use-contract.js**.
 
-	![Copying the account address to the clipboard](Images/copy-address-to-clipboard.png)
-
-	_Copying the account address to the clipboard_
-
-1. In the PowerShell or terminal window, CD back to the "use-contract" directory. Then execute the following command to invoke the contract and transfer My Coin:
-
-	```
-	node use-contract.js
-	```
-
-1. Watch the output. Onserve that before the ```Transfer``` event fires, the accounts hold their original balances even though the ```sendCoin``` method had already been invoked. Checking the balances again in the ```Transfer``` event handler reveals the final, post-transaction balances, and shows that 1,000 My Coin were transferred to Account 1.
-
-	```	
-	Sending some coin...
-	0xb677604426c9589bb1072f1ec517d2ad3d5e37c56f0b5d9a3b2d689a4bd962ad
-	Checking balance for coin base...
-	{ [String: '100000'] s: 1, e: 5, c: [ 100000 ] }
-	Checking balance for account1...
-	{ [String: '0'] s: 1, e: 0, c: [ 0 ] }
-	Waiting for event to fire...
-	Coin Sent!
-
-	Checking balance for coin base...
-	{ [String: '99000'] s: 1, e: 4, c: [ 99000 ] }
-	Checking balance for account1...
-	{ [String: '1000'] s: 1, e: 3, c: [ 1000 ] }
-	```
-
-If you'd like, you can run the app again to transfer another 1,000 My Coin. Each time you run the app and invoke the contract, the balance in the coinbase account will decrease by 1,000, and the balance in Account 1 will increase by the same amount.
-
-<a name="Exercise6"></a>
-## Exercise 6: Delete the blockchain network 
+<a name="Exercise3"></a>
+## Exercise 3: Delete the blockchain network 
 
 In this exercise, you will delete the resource group created in [Exercise 1](#Exercise1) when you created the Ethereum network. Deleting the resource group deletes everything in it and prevents any further charges from being incurred for it. Resource groups that are deleted can't be recovered, so be certain you're finished using it before deleting it. However, it is **important not to leave this resource group deployed any longer than necessary** because the resources in it are relatively expensive.
 
