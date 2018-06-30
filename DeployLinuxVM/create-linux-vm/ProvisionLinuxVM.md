@@ -185,14 +185,15 @@ All of the compilation and execution (running) will be done from within vim's co
 !gcc -o HelloWorld % && ./HelloWorld
 ```
 
-# Compiling your code and viewing the compiled output#
+## Compiling your code and viewing the compiled output##
 
 ![Putty_SSH_CompileCodeCmd](images/ssh-putty-ccode-compile.png)
 
 If everything goes well during compilation, you'll see the following output:
+
 ![Putty_SSH_CompileCodeOutput](images/ssh-putty-ccode-compiledOutput.png)
 
-# Running your compiled code #
+## Running your compiled code ##
 
 Now that you've successfully compiled your code, its time to run your compiled code...
 
@@ -203,7 +204,7 @@ Once again, if everything goes as expected, following is the output of your code
 ![Putty_SSH_RunTimeOutput](images/ssh-putty-ccode-runtimeOutput.png)
 
 
-## Next steps
+## Next steps ##
 
 The lab is done! You have now a Linux/BSD VM running on the cloud on Azure, you've successfully connected to it and you've edited, compiled and executed a C program inside vim!
 
