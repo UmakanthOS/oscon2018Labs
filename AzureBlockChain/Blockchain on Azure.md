@@ -23,7 +23,7 @@ In this hands-on lab, you will learn how to:
 <a name="Prerequisites"></a>
 ### Prerequisites ###
 
-- An active Microsoft Azure subscription. If you don't have one, [sign up for a free trial](http://aka.ms/WATK-FreeTrial).
+- An active Microsoft Azure subscription. If you don't have one, [sign up for a free trial](https://azure.microsoft.com/en-us/free/?v=18.23).
 - [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 
 <a name="Cost"></a>
