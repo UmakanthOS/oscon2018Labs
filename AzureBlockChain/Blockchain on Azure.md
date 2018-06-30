@@ -19,14 +19,12 @@ In this hands-on lab, you will learn how to:
 - Deploy an Ethereum blockchain network on Azure
 - Use MetaMask to create an Ethereum wallet
 - Write smart contracts and deploy them to Ethereum networks
-- Manipulate Ethereum blockchains using Node.js
 
 <a name="Prerequisites"></a>
 ### Prerequisites ###
 
 - An active Microsoft Azure subscription. If you don't have one, [sign up for a free trial](http://aka.ms/WATK-FreeTrial).
 - [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
-- [Node.js](https://nodejs.org)
 
 <a name="Cost"></a>
 ### Cost ###
