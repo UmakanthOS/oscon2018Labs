@@ -26,13 +26,6 @@ In this hands-on lab, you will learn how to:
 - An active Microsoft Azure subscription. If you don't have one, [sign up for a free trial](https://azure.microsoft.com/en-us/free/?v=18.23).
 - [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 
-<a name="Cost"></a>
-### Cost ###
-
-![](Images/cost-3.png)
-
-The cost of this lab is **high**. For an overview of cost ratings, refer to [Explanation of Costs](../../Costs.md).
-
 <a name="Exercises"></a>
 ## Exercises ##
 
