@@ -62,7 +62,8 @@ In this exercise, you will use the Azure Portal to deploy an Ethereum Blockchain
 
 	_Specifying deployment regions_
 
-1. Click **OK** at the bottom of the "Network Size and Performance" blade to accept the default settings for VM sizes, number of nodes, and so on.
+1. Click **OK** at the bottom of the "Network Size and Performance" blade to accept the default settings for VM sizes (D1 v2), number of nodes(2), and so on for both Mining and Transaction Nodes.
+	![Specifying Network Size and Performance](Images/blockchain-settings-2a.png)
 
 1. In the "Ethereum Settings" blade, set Consortium Member Id to **123** and enter a password in four places as the Ethereum account password and private key passphrase. Then click **OK**. Once again, *remember the password that you entered, because you will need it in Exercise 3*.
 
@@ -75,9 +76,9 @@ In this exercise, you will use the Azure Portal to deploy an Ethereum Blockchain
 In the next step, please click on the "Disable" option for monitoring as no monitoring is required for this lab.
 	![Disable Monitoring](Images/blockchain-settings-4.png)
 
-	
+	_Disable Monitoring_
 
-1. Review the settings in the "Summary" blade and click **OK** at the bottom of the blade. Then click the **Create** button at the bottom of the "Create" blade to begin the deployment.
+Review the settings in the "Summary" blade and click **OK** at the bottom of the blade. Then click the **Create** button at the bottom of the "Create" blade to begin the deployment.
 
 The deployment will probably take 10 to 15 minutes to complete, but rather than wait for it to finish, proceed to Exercise 2 and begin the process of setting up a wallet. 
 
