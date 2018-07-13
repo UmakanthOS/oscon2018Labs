@@ -73,11 +73,9 @@ In this exercise, you will use the Azure Portal to deploy an Ethereum Blockchain
 	_Entering Ethereum settings_
 
 In the next step, please click on the "Disable" option for monitoring as no monitoring is required for this lab.
-
 	![Disable Monitoring](Images/blockchain-settings-4.png)
 
-	_Disable Monitoring_
-
+	
 
 1. Review the settings in the "Summary" blade and click **OK** at the bottom of the blade. Then click the **Create** button at the bottom of the "Create" blade to begin the deployment.
 
