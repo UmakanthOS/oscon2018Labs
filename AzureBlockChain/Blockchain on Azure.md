@@ -9,7 +9,7 @@ Anyone can build a Blockchain network and use it to host blockchains. Microsoft 
 
 Ethereum was one of the first general-purpose Blockchain implementations. The software is open-source and is the basis for Ethereum's own cryptocurrency known as [Ether](https://www.ethereum.org/ether). You can deploy Ethereum networks of your own and use its Blockchain implementation however you wish. Among other features, Ethereum supports [smart contracts](https://en.wikipedia.org/wiki/Smart_contract), which are written in languages such as [Solidity](https://en.wikipedia.org/wiki/Solidity) and then compiled into bytecode and deployed to the blockchain for execution.
 
-In this lab, you will deploy an Ethereum network on Azure and create your own cryptocurrency named "My Coin" to run on it. The currency will be brokered by a smart contract that allows funds to be transferred between accounts. Along the way, you will get first-hand experience running Blockchain networks on Azure, as well as writing smart contracts for Ethereum and deploying them to the network.
+In this lab, you will deploy an Ethereum network on Azure and create your own cryptocurrency named "My Coin" to run on it. The currency will be brokered by a smart contract that allows funds to be transferred between accounts. Along the way, you will get first-hand experience running Blockchain networks on Azure.
 
 <a name="Objectives"></a>
 ### Objectives ###
@@ -23,7 +23,7 @@ In this hands-on lab, you will learn how to:
 <a name="Prerequisites"></a>
 ### Prerequisites ###
 
-- An active Microsoft Azure subscription. If you don't have one, [sign up for a free trial](https://azure.microsoft.com/en-us/free/?v=18.23).
+- An active Microsoft Azure subscription. For this lab, a subscription is already provided for you to use.
 - [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 
 <a name="Exercises"></a>
@@ -50,7 +50,7 @@ In this exercise, you will use the Azure Portal to deploy an Ethereum Blockchain
 
 	_Creating an Ethereum blockchain_
 
-1. Fill in the "Basics" blade as shown below, providing a password that's at least 12 characters long containing a mix of uppercase letters, lowercase letters, numbers, and special characters. Select the region nearest you, and then click **OK**. *Remember the password that you entered, because you will need it in Exercise 3*.
+1. Fill in the "Basics" blade as shown below, providing a password that's at least 12 characters long containing a mix of uppercase letters, lowercase letters, numbers, and special characters. Select the region nearest you, and then click **OK**. *Remember the password that you entered, because you will need it in Exercise 2*.
 
 	![Entering basic settings](Images/blockchain-settings-1.png)
 
@@ -71,6 +71,13 @@ In this exercise, you will use the Azure Portal to deploy an Ethereum Blockchain
 	![Entering Ethereum settings](Images/blockchain-settings-3.png)
 
 	_Entering Ethereum settings_
+
+In the next step, please click on the "Disable" option for monitoring as no monitoring is required for this lab.
+
+	![Disable Monitoring](Images/blockchain-settings-4.png)
+
+	_Disable Monitoring_
+
 
 1. Review the settings in the "Summary" blade and click **OK** at the bottom of the blade. Then click the **Create** button at the bottom of the "Create" blade to begin the deployment.
 
