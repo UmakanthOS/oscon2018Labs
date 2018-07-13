@@ -4,13 +4,21 @@
 
 Virtual Machines are a core offering of Microsoft Azure. Users can create multiple VMs from images based on Microsoft Windows Server, as well as on many Linux distributions and BSD variants. Users can create VMs in 50 Azure regions worldwide, and can choose among a large number of configurations and specs.
  
-## What is covered in this lab?
+## Objectives 
 
-In this lab, you will:
+In this hands-on lab, you will:
 
-* Sign in to the Azure Portal
-* Deploy a Linux Virtual Machine on Azure
-* Connect to the Linux Virtual Machine using SSH
+- Sign in to the Azure Portal
+- Deploy a Linux Virtual Machine on Azure
+- Connect to the Linux Virtual Machine using SSH
+- Compile and run a simple program written in the C programming language
+
+<a name="Prerequisites"></a>
+## Prerequisites ##
+
+- An active Microsoft Azure subscription (credentials provided with this hands-on lab)
+- Build-essential / gcc packages
+- The vim (Visual Improved) editor is required for this exercise. 
 
 ## Exercise A: Create a Linux Virtual Machine using the Azure Portal
 
@@ -121,8 +129,83 @@ After authenticating, you'll see a terminal connected to your Linux/BSD VM on Az
 
 ![SSH via PuTTY](images/ssh-putty.png)
 
-## Next steps
+### Step 4: Compile a simple C program
 
-The lab is done! You have now a Linux/BSD VM running on the cloud on Azure, and you've successfully connected to it.
+## Create a local directory to work out of
+
+In a terminal window on your machine, create a directory named `code` and change the current directory to it.
+
+```bash
+cd
+mkdir code
+cd code
+pwd
+```
+The last command above ('pwd') prints the directory you're in
+![Putty_SSH_currentDir](images/ssh-putty-code.png)
+
+## Start editing your code using vim
+
+If you've never used vim previously, when you launch the editor, you get placed in *navigation/command* mode. Here you can scroll
+through any text present in your editor but you cannot edit. To edit inside vim, you have to enter *insert* mode. 
+You do that one of two different ways:
+- Hit the letter 'a' on your keyboard to insert text after the cursor
+- Hit the letter 'i' on your keyboard to insert text at the cursor
+![Putty_SSH_VimInsert](images/ssh-putty-viminsert.png)
+
+To save inside vim, you exit *insert* mode and go back to *command* mode by hitting the "Esc" key on your keyboard. Once in *command* mode, you enter the following sequence of characters (:w or colon-w) and hit "Enter/Return".
+![Putty_SSH_VimCommand](images/ssh-putty-vimcommandsave.png)
+
+For the purposes of this lab, once you open the vim editor (especially if you've never used vim before), please go through the following sequence once you've opened the "vim" editor
+
+- Hit the 'i' key when inside vim to enter *insert* mode
+- Copy the following snippet of code from this page:
+
+```bash
+#include <stdio.h>
+
+void main()
+{
+        printf("Hello, I'm at OSCON 2018! \n");
+        printf("-------------------------");
+}
+```
+- Inside the vim editor, use the following shortcut (Shift-Insert) on your keyboard
+- Hit Esc, type ":w" sans the quotes and hit the Return/Enter key
+- Your code is now saved! Now, we get to compile and your snippet of code from within vim
+
+![Putty_SSH_SavedCode](images/ssh-putty-savedcode.png)
+
+## Compiling and running your code
+
+All of the compilation and execution (running) will be done from within vim's command mode. If you're in *insert* mode, please switch back to *command* mode inside vim by hitting the "Esc" key on the keyboard. After inputting the commands, hit the Return/Enter key every single time. The first command (!gcc HelloWorld.c) [compiles](https://en.wikipedia.org/wiki/Compiler) your program. The second command runs the compiled machine code from the previous step and shows you the output!
+
+```bash
+!gcc HelloWorld.c 
+!gcc -o HelloWorld % && ./HelloWorld
+```
+
+## Compiling your code and viewing the compiled output##
+
+![Putty_SSH_CompileCodeCmd](images/ssh-putty-ccode-compile.png)
+
+If everything goes well during compilation, you'll see the following output:
+
+![Putty_SSH_CompileCodeOutput](images/ssh-putty-ccode-compiledOutput.png)
+
+## Running your compiled code ##
+
+Now that you've successfully compiled your code, its time to run your compiled code...
+
+![Putty_SSH_RunCompiledCodeCmd](images/ssh-putty-ccode-runCompiledCode.png)
+
+Once again, if everything goes as expected, following is the output of your code executing inside a remote Linux VM on Azure:
+
+![Putty_SSH_RunTimeOutput](images/ssh-putty-ccode-runtimeOutput.png)
+
+
+## Next steps ##
+
+The lab is done! You have now a Linux/BSD VM running on the cloud on Azure, you've successfully connected to it and you've edited, compiled and executed a C program inside vim!
 
 While this lab is over, there's definitely much more about using VMs on Azure. Feel free to explore the features of the Azure Portal: for example, add data disks to your VM, configure the firewall (Network Security Group), enable backups, or whatever else you want to try!
