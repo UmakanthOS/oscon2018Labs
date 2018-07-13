@@ -70,12 +70,10 @@ In this exercise, you will use the Azure Portal to deploy an Ethereum Blockchain
 	> The member ID is used to avoid IP collisions when multiple organizations are deployed to a single Ethereum network. Because you aren't sharing the network with other organizations, the ID that you enter is unimportant.
 
 	![Entering Ethereum settings](Images/blockchain-settings-3.png)
-
 	_Entering Ethereum settings_
 
 In the next step, please click on the "Disable" option for monitoring as no monitoring is required for this lab.
 	![Disable Monitoring](Images/blockchain-settings-4.png)
-
 	_Disable Monitoring_
 
 Review the settings in the "Summary" blade and click **OK** at the bottom of the blade. Then click the **Create** button at the bottom of the "Create" blade to begin the deployment.
