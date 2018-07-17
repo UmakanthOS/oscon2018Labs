@@ -18,7 +18,7 @@ In this hands-on lab, you will learn how to:
 
 - Deploy an Ethereum blockchain network on Azure
 - Use MetaMask to create an Ethereum wallet
-- Write smart contracts and deploy them to Ethereum networks
+- Transfer your cryptocurrency between accounts
 
 <a name="Prerequisites"></a>
 ### Prerequisites ###
