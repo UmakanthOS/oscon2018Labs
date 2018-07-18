@@ -94,6 +94,7 @@ The last step has some advanced configuration options:+
 - Do not add any extension for now; these could be useful to run a script at the VM startup, for example.
 - Disable Boot and Guest OS diagnostic.
 - Disable Backup for this lab (although it's a great feature to have in a real-world scenario).
+- Remember to enable SSH access to this VM: Under inbound ports, please be sure to select/enable SSH (Port 22).
 
 ![Create VM: Step 3](images/vm-step-3.png)
 
