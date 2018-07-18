@@ -187,7 +187,9 @@ void main()
 
 ## Compiling and running your code
 
-All of the compilation and execution (running) will be done from within vim's command mode. If you're in *insert* mode, please switch back to *command* mode inside vim by hitting the "Esc" key on the keyboard. After inputting the commands, hit the Return/Enter key every single time. The first command (!gcc HelloWorld.c) [compiles](https://en.wikipedia.org/wiki/Compiler) your program. The second command runs the compiled machine code from the previous step and shows you the output!
+All of the compilation and execution (running) will be done from within vim's command mode. If you're in *insert* mode, please switch back to *command* mode inside vim by hitting the "Esc" key on the keyboard. After inputting the commands, hit the Return/Enter key every single time. The first command (!gcc HelloWorld.c) [compiles](https://en.wikipedia.org/wiki/Compiler) your program. The second command runs the compiled machine code from the previous step and shows you the output! 
+
+The commands below begin with "!" as they're meant to be entered inside the vim editor. It is recommended that you input the commands manually instead of relying on copy 'n' paste or the "auto-type" functionality provided with the virtual machine.
 
 ```bash
 !gcc HelloWorld.c 
