@@ -148,8 +148,8 @@ The last command above ('pwd') prints the directory you're in. Once you're in, p
 
 ```bash
 sudo su -
-apt-get install build-essential (Ubuntu or Debian)
-yum-install gcc (Fedora or Red Hat)
+apt-get install build-essential (Ubuntu or Debian or Mint)
+yum install gcc (Fedora or Red Hat or CentOS)
 exit
 ```
 
