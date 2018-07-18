@@ -141,13 +141,13 @@ mkdir code
 cd code
 pwd
 ```
-The last command above ('pwd') prints the directory you're in
-![Putty_SSH_currentDir](images/ssh-putty-code.png)
+The last command above ('pwd') prints the directory you're in.
 
 ## Start editing your code using vim
 
 If you've never used vim previously, when you launch the editor, you get placed in *navigation/command* mode. Here you can scroll
-through any text present in your editor but you cannot edit. To edit inside vim, you have to enter *insert* mode. 
+through any text present in your editor but you cannot edit. To edit inside vim, you have to enter *insert* mode. For this exercise, it's recommended that you manually type the vim editor commands.
+
 You do that one of two different ways:
 - Hit the letter 'a' on your keyboard to insert text after the cursor
 - Hit the letter 'i' on your keyboard to insert text at the cursor
