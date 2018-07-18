@@ -12,14 +12,20 @@ In this hands-on lab, you will learn how to:
 <a name="Prerequisites"></a>
 ## Prerequisites ##
 
-- An active Microsoft Azure subscription. If you don't have one, [sign up for a free trial](https://azure.microsoft.com/en-us/free/?v=18.23)
+- An active Microsoft Azure subscription. For this lab, a subscription is already provided for you to use.
 - A web-browser 
 - [Visual Studio Code](https://code.visualstudio.com)
 
 
 ## Create the app locally
 
-In a terminal window on your machine, create a directory named `hellodotnetcore` and change the current directory to it.
+Launch the terminal application in the provided Linux instance:
+
+![Launch_Terminal_App](media/launch-terminal.png)
+
+_Launch Terminal Application_
+
+In the launched terminal window, create a directory named `hellodotnetcore` and change the current directory to it.
 
 ```bash
 mkdir hellodotnetcore
