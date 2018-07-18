@@ -42,7 +42,7 @@ Estimated time to complete this lab: **20** minutes.
 
 In this exercise, you will use the Azure Portal to deploy an Ethereum Blockchain network in the cloud. [Ethereum](https://www.ethereum.org/) is a platform for running decentralized applications that rely on smart contracts, and it is offered as a service in Azure. For a great introduction to Ethereum, its history, and its uses, see [What is Ethereum? A Step-by-Step Beginners Guide](https://blockgeeks.com/guides/ethereum/).
 
-1. Open a web-browser inside the virtual desktop on the left and navigate to the [Azure Portal](https://portal.azure.com). Please use the Azure credentials provided at the beginning of this guide. 
+1. Open a web-browser inside the virtual desktop on the left and navigate to the [Azure Portal](https://portal.azure.com). Please use the Azure credentials provided at the beginning of this guide. While the Blockchain resource for this exercise typically takes around 15minutes to deploy, it may take as long as 20-25minutes.
 
 1. In the portal, click **+ Create a resource**, followed by **Blockchain** and **Ethereum Proof-of-Work Consortium**.
 
