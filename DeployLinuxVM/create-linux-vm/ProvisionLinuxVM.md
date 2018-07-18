@@ -144,11 +144,12 @@ mkdir code
 cd code
 pwd
 ```
-The last command above ('pwd') prints the directory you're in. Once you're in, please type in the following commands to install gcc (the C compiler)
+The last command above ('pwd') prints the directory you're in. Once you're in, please type in the following commands to install gcc (the C compiler). Please use the appropriate command depending on the Linux distribution you're using.
 
 ```bash
 sudo su -
-apt-get install build-essential
+apt-get install build-essential (Ubuntu or Debian)
+yum-install gcc (Fedora or Red Hat)
 exit
 ```
 
