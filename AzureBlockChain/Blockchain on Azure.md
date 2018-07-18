@@ -149,7 +149,7 @@ The next task is to set up a wallet and connect it to the Ethereum network deplo
 
 	_Copying the endpoint URL_
  
-1. Return to Chrome and the MetaMask window. (If the window is no longer displayed, click the MetaMask icon to the right of the address bar to display it again.) Then click the hamburger icon to display the MetaMask menu, and select **Settings** from the menu.
+1. Return to Chrome and the MetaMask window. (If the window is no longer displayed, click the MetaMask icon to the right of the address bar to display it again.) Then click the hamburger icon to display the MetaMask menu, and select **Settings** from the menu. **If the User Interface you're seeing in Metamask differs from what's displayed in the screenshots here, please scroll down and select/enable the option to switch to the older UI.**
 
 	![Opening MetaMask settings](Images/open-metamask-settings.png)
 
