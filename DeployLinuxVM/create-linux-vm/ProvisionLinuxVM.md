@@ -141,7 +141,13 @@ mkdir code
 cd code
 pwd
 ```
-The last command above ('pwd') prints the directory you're in.
+The last command above ('pwd') prints the directory you're in. Once you're in, please type in the following commands to install gcc (the C compiler)
+
+```bash
+sudo su -
+apt-get install build-essential
+exit
+```
 
 ## Start editing your code using vim
 
