@@ -140,13 +140,14 @@ mkdir code
 cd code
 pwd
 ```
-The last command above ('pwd') prints the directory you're in. Once you're in, please type in the following commands to install gcc (the C compiler). Please use the appropriate command depending on the Linux distribution you're using.
+The last command above ('pwd') prints the directory you're in. Once you're in, please type in the following commands to install gcc (the C compiler). Please use the appropriate command depending on the Linux distribution you're using. Once you've installed gcc, please exit out of being root and start editing using vim (please see commands below)
 
 ```bash
 sudo su -
 apt-get install build-essential (Ubuntu or Debian or Mint)
 yum install gcc (Fedora or Red Hat or CentOS)
 exit
+vim HelloWorld.c
 ```
 
 ## Start editing your code using vim
