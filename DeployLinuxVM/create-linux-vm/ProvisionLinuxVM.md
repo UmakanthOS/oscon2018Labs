@@ -173,7 +173,7 @@ For the purposes of this lab, once you open the vim editor (especially if you've
 void main()
 {
         printf("Hello, I'm at OSCON 2018! \n");
-        printf("-------------------------");
+        printf("------------------------- \n");
 }
 ```
 - Inside the vim editor, use the following shortcut (Shift-Insert) on your keyboard
