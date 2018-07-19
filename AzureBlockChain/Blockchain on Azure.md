@@ -35,14 +35,14 @@ This hands-on lab includes the following exercises:
 - [Exercise 2: Create a wallet](#Exercise2)
 - [Exercise 3: Delete the Ethereum network](#Exercise3)
 
-Estimated time to complete this lab: **20** minutes.
+Estimated time to complete this lab: **20-25** minutes.
 
 <a name="Exercise1"></a>
 ## Exercise 1: Create a blockchain on Azure ##
 
 In this exercise, you will use the Azure Portal to deploy an Ethereum Blockchain network in the cloud. [Ethereum](https://www.ethereum.org/) is a platform for running decentralized applications that rely on smart contracts, and it is offered as a service in Azure. For a great introduction to Ethereum, its history, and its uses, see [What is Ethereum? A Step-by-Step Beginners Guide](https://blockgeeks.com/guides/ethereum/).
 
-1. Open a web-browser inside the virtual desktop on the left and navigate to the [Azure Portal](https://portal.azure.com). Please use the Azure credentials provided at the beginning of this guide. While the Blockchain resource for this exercise typically takes around 15minutes to deploy, it may take as long as 20-25minutes.
+1. Open a web-browser inside the virtual desktop on the left and navigate to the [Azure Portal](https://portal.azure.com). Please use the Azure credentials provided at the beginning of this guide. **While the Blockchain resource for this exercise typically takes around 15minutes to deploy, it may take as long as 20-25minutes.**
 
 1. In the portal, click **+ Create a resource**, followed by **Blockchain** and **Ethereum Proof-of-Work Consortium**.
 
@@ -78,7 +78,7 @@ In the next step, please click on the "Disable" option for monitoring as no moni
 
 Review the settings in the "Summary" blade and click **OK** at the bottom of the blade. Then click the **Create** button at the bottom of the "Create" blade to begin the deployment.
 
-The deployment will probably take 10 to 15 minutes to complete, but rather than wait for it to finish, proceed to Exercise 2 and begin the process of setting up a wallet. 
+The deployment usually takes about 10 to 15 minutes to complete, but rather than wait for it to finish, proceed to Exercise 2 and begin the process of setting up a wallet. 
 
 <a name="Exercise2"></a>
 ## Exercise 2: Create a wallet ##
